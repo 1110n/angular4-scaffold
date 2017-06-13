@@ -1,0 +1,40 @@
+{
+  "name": "scratch-pad",
+  "version": "4.0.1",
+  "description": "scratch-pad is a chrome extension which allows you to attach your ideas to web pages. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "lite": "lite-server",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "start": "concurrently \"npm run tsc:w\" \"npm run lite\""
+  },
+  "dependencies": {
+    "@angular/common": "~4.0.0",
+    "@angular/compiler": "~4.0.0",
+    "@angular/core": "~4.0.0",
+    "@angular/platform-browser": "~4.0.0",
+    "@angular/platform-browser-dynamic": "~4.0.0",
+    "es6-shim": "^0.33.3",
+    "portfinder": "^1.0.13",
+    "reflect-metadata": "^0.1.10",
+    "rxjs": "5.0.1",
+    "systemjs": "0.19.40",
+    "zone.js": "^0.8.4"
+  },
+  "devDependencies": {
+    "typescript": "~2.1.0",
+    "concurrently": "^3.2.0",
+    "lite-server": "^2.2.2",
+    "canonical-path": "0.0.2"
+  },
+  "keywords": [
+    "chrome",
+    "extension",
+    "angular",
+    "4"
+  ],
+  "author": "@1110n",
+  "license": "MIT"
+}
